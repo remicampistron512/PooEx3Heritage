@@ -1,4 +1,4 @@
-package city;
+package fr.fms.entities;
 
 public class City {
     public String name;
