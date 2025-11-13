@@ -6,6 +6,9 @@ public class Commercial extends Person {
     public Commercial(String firstName,String lastName,int age,String address,City bornCity,String company, double commissionPay){
         super(firstName,lastName,age,address,bornCity);
         this.company = company;
+        if(commissionPay<0){
+            throw new RuntimeException("% du chiffre d'affaire inférieur à 0 impossible");
+        }
         this.commissionPay = commissionPay;
     }
 

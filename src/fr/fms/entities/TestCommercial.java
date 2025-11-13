@@ -6,5 +6,4 @@ public class TestCommercial {
         Commercial robert = new Commercial("Robert",   "Dupont",   50, "rue des rosiers à Toulouse",  limoges,     "Brico",   5.0);
         System.out.println(robert);
     }
-
 }
