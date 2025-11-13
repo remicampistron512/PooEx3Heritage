@@ -2,7 +2,7 @@ package fr.fms.entities;
 
 import java.util.ArrayList;
 
-public class Person {
+public abstract class Person {
     public String firstName;
     public String lastName;
     public int age;
@@ -80,4 +80,5 @@ public class Person {
         }
         return completeDescription;
     }
+    public abstract double renumeration();
 }
